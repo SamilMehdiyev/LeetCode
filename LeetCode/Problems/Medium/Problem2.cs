@@ -14,7 +14,7 @@ namespace LeetCode
         public ListNode(int x) { val = x; }
     }
 
-    class Question2
+    class Problem2
     {
         public ListNode AddTwoNumbers(BigInteger num1, BigInteger num2)
         {
