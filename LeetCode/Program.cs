@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Numerics;
 
+using LeetCode.Problems.Medium.Problem2;
+
 namespace LeetCode
 {
     class Program
