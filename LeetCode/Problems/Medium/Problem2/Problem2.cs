@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Problems.Medium.Problem2
+namespace LeetCode.Problems.Medium
 {
     public class ListNode
     {
