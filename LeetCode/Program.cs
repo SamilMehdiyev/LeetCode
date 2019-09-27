@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem3();
+            processProblem4();
         }
 
         public static void processProblem2()
@@ -23,6 +23,12 @@ namespace LeetCode
         {
             Problem3 problem = new Problem3();
             Console.WriteLine(problem.LengthOfLongestSubstring(" "));
+        }
+
+        public static void processProblem4()
+        {
+            Problem4 problem = new Problem4();
+            Console.WriteLine(problem.FindMedianSortedArrays(new[] { 1, 3 }, new[] { 2 }));
         }
     }
 }
