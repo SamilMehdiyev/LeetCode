@@ -10,7 +10,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem4();
+            processProblem5();
         }
 
         public static void processProblem2()
@@ -30,6 +30,12 @@ namespace LeetCode
         {
             Problem4 problem = new Problem4();
             Console.WriteLine(problem.FindMedianSortedArrays(new[] { 1, 3 }, new[] { 2 }));
+        }
+
+        public static void processProblem5()
+        {
+            Problem5 problem = new Problem5();
+            Console.WriteLine(problem.LongestPalindrome(" "));
         }
     }
 }
