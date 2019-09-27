@@ -57,6 +57,7 @@
     <Content Include="Problems\Medium\Problem2\Problem2.txt" />
     <Content Include="Problems\Medium\Problem3\Problem3.txt" />
     <Content Include="Problems\Hard\Problem4\Problem4.txt" />
+    <Content Include="Problems\Medium\Problem5\Problem5.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
