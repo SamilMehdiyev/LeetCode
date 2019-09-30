@@ -59,11 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Problems\Easy\Problem1 - Two Sum\Description.txt" />
-    <Content Include="Problems\Medium\Problem2 - Add Two Numbers\Problem2.txt" />
-    <Content Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Problem3.txt" />
-    <Content Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Problem4.txt" />
+    <Content Include="Problems\Medium\Problem2 - Add Two Numbers\Description.txt" />
+    <Content Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Description.txt" />
+    <Content Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Description.txt" />
     <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmDescription.txt" />
-    <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Problem5.txt" />
+    <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Description.txt" />
     <Content Include="Problems\Medium\Problem6 - ZIgZag Conversion\Description.txt" />
   </ItemGroup>
   <ItemGroup />
