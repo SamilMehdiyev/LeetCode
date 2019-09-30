@@ -1,5 +1,4 @@
 ﻿
-
 namespace LeetCode.Problems.Medium
 {
     class Problem5
