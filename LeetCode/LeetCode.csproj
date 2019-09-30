@@ -48,6 +48,7 @@
     <Compile Include="Problems\Hard\Problem4\Problem4.cs" />
     <Compile Include="Problems\Medium\Problem5\ManacharsAlgorithm.cs" />
     <Compile Include="Problems\Medium\Problem5\Problem5.cs" />
+    <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Problem6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problems\Medium\Problem2\Problem2.cs" />
@@ -61,6 +62,7 @@
     <Content Include="Problems\Hard\Problem4\Problem4.txt" />
     <Content Include="Problems\Medium\Problem5\ManacharsAlgorithmDescription.txt" />
     <Content Include="Problems\Medium\Problem5\Problem5.txt" />
+    <Content Include="Problems\Medium\Problem6 - ZIgZag Conversion\Description.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
