@@ -51,13 +51,13 @@
     <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Problem6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Problems\Medium\Problem2\Problem2.cs" />
+    <Compile Include="Problems\Medium\Problem2 - Add Two Numbers\Problem2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Problems\Medium\Problem2\Problem2.txt" />
+    <Content Include="Problems\Medium\Problem2 - Add Two Numbers\Problem2.txt" />
     <Content Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Problem3.txt" />
     <Content Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Problem4.txt" />
     <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmDescription.txt" />
