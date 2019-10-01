@@ -10,7 +10,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem5();
+            processProblem6();
         }
 
         public static void processProblem2()
@@ -35,7 +35,6 @@ namespace LeetCode
         public static void processProblem5()
         {
             ManacharsAlgorithm problem = new ManacharsAlgorithm();
-            //Problem5 problem = new Problem5();
             Console.WriteLine(problem.LongestPalindrome("gphyvqruxjmwhonjjrgumxjhfyupajxbjgthzdvrdqmdouuukeaxhjumkmmhdglqrrohydrmbvtuwstgkobyzjjtdtjroqpyusfsbjlusekghtfbdctvgmqzeybn" +
 "wzlhdnhwzptgkzmujfldoiejmvxnorvbiubfflygrkedyirienybosqzrkbpcfidvkkafftgzwrcitqizelhfsruwmtrgaocjcyxdkovtdennrkmxwpdsxpxuarh" +
 "gusizmwakrmhdwcgvfljhzcskclgrvvbrkesojyhofwqiwhiupujmkcvlywjtmbncurxxmpdskupyvvweuhbsnanzfioirecfxvmgcpwrpmbhmkdtckhvbxnsbci" +
@@ -44,6 +43,12 @@ namespace LeetCode
 "jrnwhjxsrodtblqxkhezubprqftrqcyrzwywqrgockioqdmzuqjkpmsyohtlcnesbgzqhkalwixfcgyeqdzhnnlzawrdgskurcxfbekbspupbduxqxjeczpmdvss" +
 "ikbivjhinaopbabrmvscthvoqqbkgekcgyrelxkwoawpbrcbszelnxlyikbulgmlwyffurimlfxurjsbzgddxbgqpcdsuutfiivjbyqzhprdqhahpgenjkbiukur" +
 "vdwapuewrbehczrtswubthodv"));
+        }
+
+        public static void processProblem6()
+        {
+            Problem6 problem = new Problem6();
+            problem.Convert("PAYPALISHIRING", 4);
         }
     }
 }
