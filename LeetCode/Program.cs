@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
+using LeetCode.Problems.Easy;
 using LeetCode.Problems.Medium;
 using LeetCode.Problems.Hard;
 
@@ -10,7 +11,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem6();
+            processProblem7();
         }
 
         public static void processProblem2()
@@ -49,6 +50,12 @@ namespace LeetCode
         {
             Problem6 problem = new Problem6();
             problem.Convert("PAYPALISHIRING", 4);
+        }
+
+        public static void processProblem7()
+        {
+            Problem7 problem = new Problem7();
+            Console.WriteLine(problem.Reverse(120));
         }
     }
 }
