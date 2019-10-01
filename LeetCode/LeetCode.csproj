@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problems\Easy\Problem1 - Two Sum\Problem1.cs" />
+    <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Problem7.cs" />
     <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Problem3.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Problem4.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithm.cs" />
@@ -59,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Problems\Easy\Problem1 - Two Sum\Description.txt" />
+    <Content Include="Problems\Easy\Problem7 - Reverse Integer\Description.txt" />
     <Content Include="Problems\Medium\Problem2 - Add Two Numbers\Description.txt" />
     <Content Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Description.txt" />
     <Content Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Description.txt" />
