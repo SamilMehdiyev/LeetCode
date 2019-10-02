@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LeetCode.Problems.Medium
+namespace LeetCode.Problems.Medium.Problem2
 {
     public class ListNode
     {
@@ -14,7 +10,7 @@ namespace LeetCode.Problems.Medium
         public ListNode(int x) { val = x; }
     }
 
-    class Problem2
+    class Solution
     {
         public ListNode AddTwoNumbers(BigInteger num1, BigInteger num2)
         {

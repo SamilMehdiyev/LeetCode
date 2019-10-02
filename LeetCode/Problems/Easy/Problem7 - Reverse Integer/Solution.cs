@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace LeetCode.Problems.Easy
+namespace LeetCode.Problems.Easy.Problem7
 {
-    class Problem7
+    class Solution
     {
         public int Reverse(int x)
         {

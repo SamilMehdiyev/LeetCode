@@ -1,7 +1,7 @@
 ﻿
-namespace LeetCode.Problems.Medium
+namespace LeetCode.Problems.Medium.Problem5
 {
-    class Problem5
+    class Solution
     {
         public string LongestPalindrome(string s)
         {

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode.Problems.Medium
+﻿
+namespace LeetCode.Problems.Medium.Problem6
 {
-    class Problem6
+    class Solution
     {
         public string Convert(string s, int numRows)
         {

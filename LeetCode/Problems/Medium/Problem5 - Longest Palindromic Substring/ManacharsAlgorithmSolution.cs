@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace LeetCode.Problems.Medium
+namespace LeetCode.Problems.Medium.Problem5
 {
-    class ManacharsAlgorithm
+    class ManacharsAlgorithmSolution
     {
         public string LongestPalindrome(string s)
         {

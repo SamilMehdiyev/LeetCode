@@ -1,7 +1,7 @@
 ﻿
-namespace LeetCode.Problems.Easy
+namespace LeetCode.Problems.Easy.Problem1
 {
-    class Problem1
+    class Solution
     {
         public int[] TwoSum(int[] nums, int target)
         {

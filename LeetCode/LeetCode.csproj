@@ -44,17 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problems\Easy\Problem1 - Two Sum\Problem1.cs" />
-    <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Problem7.cs" />
+    <Compile Include="Problems\Easy\Problem1 - Two Sum\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution2.cs" />
-    <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Problem3.cs" />
-    <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Problem4.cs" />
-    <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithm.cs" />
-    <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Problem5.cs" />
-    <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Problem6.cs" />
+    <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Solution.cs" />
+    <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmSolution.cs" />
+    <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Problems\Medium\Problem2 - Add Two Numbers\Problem2.cs" />
+    <Compile Include="Problems\Medium\Problem2 - Add Two Numbers\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Problems.Medium
+namespace LeetCode.Problems.Medium.Problem3
 {
-    class Problem3
+    class Solution
     {
         public int LengthOfLongestSubstring(string s)
         {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace LeetCode.Problems.Hard
+namespace LeetCode.Problems.Hard.Problem4
 {
-    class Problem4
+    class Solution
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
