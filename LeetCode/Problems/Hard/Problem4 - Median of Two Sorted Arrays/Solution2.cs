@@ -23,7 +23,7 @@ namespace LeetCode.Problems.Hard.Problem4
 
             for (int i = 0; i < arrayLength; i++)
             {
-                for (int j = 0; j < arrayLength; j++)
+                for (int j = i; j < arrayLength; j++)
                 {
                     if (array[i] < array[j])
                     {
@@ -31,6 +31,11 @@ namespace LeetCode.Problems.Hard.Problem4
                         array[i] = array[j];
                         array[j] = temp;
                     }
+                }
+                
+                if(i == center)
+                {
+                    break;
                 }
             }
 
