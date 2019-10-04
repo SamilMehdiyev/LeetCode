@@ -105,8 +105,6 @@ namespace LeetCode.Problems.Medium.Problem8
             return 0;
         }
 
-
-
         private int parseNumber(bool isPositive, string number)
         {
             bool parsed = int.TryParse(number, out int result);
