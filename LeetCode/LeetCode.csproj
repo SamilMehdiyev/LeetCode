@@ -53,6 +53,7 @@
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmSolution.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Solution.cs" />
     <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem8 - String to Integer %28atoi%29\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problems\Medium\Problem2 - Add Two Numbers\Solution.cs" />

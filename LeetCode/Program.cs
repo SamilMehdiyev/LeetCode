@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem4();
+            processProblem8();
         }
 
         public static void processProblem2()
@@ -55,6 +55,12 @@ namespace LeetCode
         {
             Problems.Easy.Problem7.Solution problem = new Problems.Easy.Problem7.Solution();
             Console.WriteLine(problem.Reverse(120));
+        }
+
+        public static void processProblem8()
+        {
+            Problems.Medium.Problem8.Solution solution = new Problems.Medium.Problem8.Solution();
+            Console.WriteLine(solution.MyAtoi("0-1"));
         }
     }
 }
