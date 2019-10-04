@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem8();
+            processProblem9();
         }
 
         public static void processProblem2()
@@ -61,6 +61,12 @@ namespace LeetCode
         {
             Problems.Medium.Problem8.Solution solution = new Problems.Medium.Problem8.Solution();
             Console.WriteLine(solution.MyAtoi("0-1"));
+        }
+
+        public static void processProblem9()
+        {
+            Problems.Easy.Problem9.Solution solution = new Problems.Easy.Problem9.Solution();
+            Console.WriteLine(solution.IsPalindrome(101));
         }
     }
 }

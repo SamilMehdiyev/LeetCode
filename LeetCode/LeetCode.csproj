@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Problems\Easy\Problem1 - Two Sum\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem9 - Palindrome Number\Solution.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution2.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution3.cs" />
     <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Solution.cs" />
