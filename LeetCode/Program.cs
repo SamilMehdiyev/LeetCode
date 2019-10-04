@@ -26,8 +26,9 @@ namespace LeetCode
         public static void processProblem4()
         {
             //Problems.Hard.Problem4.Solution problem = new Problems.Hard.Problem4.Solution();
-            Problems.Hard.Problem4.Solution2 problem = new Problems.Hard.Problem4.Solution2();
-            Console.WriteLine(problem.FindMedianSortedArrays(new[] { 1, 3 }, new[] { 2, 4 }));
+            //Problems.Hard.Problem4.Solution2 problem = new Problems.Hard.Problem4.Solution2();
+            Problems.Hard.Problem4.Solution3 problem = new Problems.Hard.Problem4.Solution3();
+            Console.WriteLine(problem.FindMedianSortedArrays(new[] { 1, 2 }, new[] { 3, 4, 5, 6 }));
         }
 
         public static void processProblem5()
