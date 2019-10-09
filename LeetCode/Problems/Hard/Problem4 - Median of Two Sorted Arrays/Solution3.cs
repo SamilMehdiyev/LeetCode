@@ -40,9 +40,12 @@ namespace LeetCode.Problems.Hard.Problem4
 
             int firstArrayLength = nums1.Length, secondArrayLength = nums2.Length,
                 firstArrayCenter = firstArrayLength / 2, secondArrayCenter = secondArrayLength / 2;
+
+            int totalLength = firstArrayLength + secondArrayLength;
+
             double firstArrayMedian = 0, secondArrayMedian = 0;
 
-            while ((firstArrayLength > 2) || (secondArrayLength > 2))
+            while ((firstArrayLength >= 2) && (secondArrayLength >= 2))
             {
                 firstArrayMedian = firstArrayLength % 2 == 0 ?
                     (nums1[firstArrayCenter - 1] + nums1[firstArrayCenter]) / 2.0 : nums1[firstArrayCenter];
@@ -72,6 +75,49 @@ namespace LeetCode.Problems.Hard.Problem4
 
                 firstArrayCenter = firstArrayLength / 2;
                 secondArrayCenter = secondArrayLength / 2;
+            }
+
+            if (nums1.Length == 1 && nums2.Length >= 2)
+            {
+                if (totalLength % 2 == 0)
+                {
+                    int median = nums2[0] + nums2[1];
+
+                    for (int i = 0; i < nums2.Length; i++)
+                    {
+                        if (nums1[0] > nums2[i])
+                        {
+                            median = nums1[0] + nums2[i];
+                        }
+                    }
+
+                    return median / 2.0;
+                }
+                else
+                {
+                    return processSingleArray(nums1, nums2);
+                }
+            }
+            else if (nums2.Length == 1 && nums1.Length >= 2)
+            {
+                if (totalLength % 2 == 0)
+                {
+                    int median = nums1[0] + nums1[1];
+
+                    for (int i = 0; i < nums1.Length; i++)
+                    {
+                        if (nums2[0] > nums1[i])
+                        {
+                            median = nums2[0] + nums1[i];
+                        }
+                    }
+
+                    return median / 2.0;
+                }
+                else
+                {
+                    return processSingleArray(nums2, nums1);
+                }
             }
 
             return (Math.Max(nums1[0], nums2[0]) + Math.Min(nums1[1], nums2[1])) / 2.0;

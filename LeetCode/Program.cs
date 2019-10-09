@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem9();
+            processProblem4();
         }
 
         public static void processProblem2()
@@ -28,7 +28,7 @@ namespace LeetCode
             //Problems.Hard.Problem4.Solution problem = new Problems.Hard.Problem4.Solution();
             //Problems.Hard.Problem4.Solution2 problem = new Problems.Hard.Problem4.Solution2();
             Problems.Hard.Problem4.Solution3 problem = new Problems.Hard.Problem4.Solution3();
-            Console.WriteLine(problem.FindMedianSortedArrays(new[] { 1, 2 }, new[] { 3, 4, 5, 6 }));
+            Console.WriteLine(problem.FindMedianSortedArrays(new[] { 1, 2 }, new[] { 3, 4, 5, 6, 7, 8, 9 }));
         }
 
         public static void processProblem5()
