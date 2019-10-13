@@ -71,7 +71,7 @@ namespace LeetCode
 
         public static void processProblem10()
         {
-            Problems.Hard.Problem10.Solution solution = new Problems.Hard.Problem10.Solution();
+            Problems.Hard.Problem10.Solution2 solution = new Problems.Hard.Problem10.Solution2();
             Console.WriteLine(solution.IsMatch("mississippi", "mis*is*p*."));
         }
     }
