@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem4();
+            processProblem10();
         }
 
         public static void processProblem2()
@@ -67,6 +67,12 @@ namespace LeetCode
         {
             Problems.Easy.Problem9.Solution solution = new Problems.Easy.Problem9.Solution();
             Console.WriteLine(solution.IsPalindrome(101));
+        }
+
+        public static void processProblem10()
+        {
+            Problems.Hard.Problem10.Solution solution = new Problems.Hard.Problem10.Solution();
+            Console.WriteLine(solution.IsMatch("mississippi", "mis*is*p*."));
         }
     }
 }
