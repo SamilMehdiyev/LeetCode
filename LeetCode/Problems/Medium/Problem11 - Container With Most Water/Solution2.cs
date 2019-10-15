@@ -30,6 +30,7 @@ namespace LeetCode.Problems.Medium.Problem11
                     x++;
                 }
             }
+
             return max;
         }
     }
