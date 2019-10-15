@@ -77,8 +77,8 @@ namespace LeetCode
 
         public static void processProblem11()
         {
-            Problems.Medium.Problem11.Solution solution = new Problems.Medium.Problem11.Solution();
-            Console.WriteLine(solution.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
+            Problems.Medium.Problem11.Solution2 solution = new Problems.Medium.Problem11.Solution2();
+            Console.WriteLine(solution.MaxArea(new int[] { 1, 5, 6, 2, 8, 4, 8, 3, 7 }));
         }
     }
 }
