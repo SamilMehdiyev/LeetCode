@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem10();
+            processProblem11();
         }
 
         public static void processProblem2()
@@ -73,6 +73,12 @@ namespace LeetCode
         {
             Problems.Hard.Problem10.Solution2 solution = new Problems.Hard.Problem10.Solution2();
             Console.WriteLine(solution.IsMatch("mississippi", "mis*is*p*."));
+        }
+
+        public static void processProblem11()
+        {
+            Problems.Medium.Problem11.Solution solution = new Problems.Medium.Problem11.Solution();
+            Console.WriteLine(solution.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
         }
     }
 }
