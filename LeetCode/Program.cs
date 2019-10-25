@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem12();
+            processProblem13();
         }
 
         public static void processProblem2()
@@ -85,6 +85,12 @@ namespace LeetCode
         {
             Problems.Medium.Problem12.Solution solution = new Problems.Medium.Problem12.Solution();
             Console.WriteLine(solution.IntToRoman(58));
+        }
+
+        public static void processProblem13()
+        {
+            Problems.Easy.Problem13.Solution solution = new Problems.Easy.Problem13.Solution();
+            Console.WriteLine(solution.RomanToInt("MCMXCIV"));
         }
     }
 }
