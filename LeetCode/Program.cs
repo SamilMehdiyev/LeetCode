@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem13();
+            processProblem14();
         }
 
         public static void processProblem2()
@@ -91,6 +91,12 @@ namespace LeetCode
         {
             Problems.Easy.Problem13.Solution solution = new Problems.Easy.Problem13.Solution();
             Console.WriteLine(solution.RomanToInt("MCMXCIV"));
+        }
+
+        public static void processProblem14()
+        {
+            Problems.Easy.Problem14.Solution solution = new Problems.Easy.Problem14.Solution();
+            Console.WriteLine(solution.LongestCommonPrefix(new string[] { "aa", "a" }));
         }
     }
 }

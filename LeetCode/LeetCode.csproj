@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Problems\Easy\Problem1 - Two Sum\Solution.cs" />
     <Compile Include="Problems\Easy\Problem13 - Roman to Integer\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem14 - Longest Common Prefix\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem9 - Palindrome Number\Solution.cs" />
     <Compile Include="Problems\Hard\Problem10 - Regular Expression Matching\Solution.cs" />
@@ -72,6 +73,7 @@
   <ItemGroup>
     <Content Include="Problems\Easy\Problem1 - Two Sum\Description.txt" />
     <Content Include="Problems\Easy\Problem13 - Roman to Integer\Description.txt" />
+    <Content Include="Problems\Easy\Problem14 - Longest Common Prefix\Description.txt" />
     <Content Include="Problems\Easy\Problem7 - Reverse Integer\Description.txt" />
     <Content Include="Problems\Easy\Problem9 - Palindrome Number\Description.txt" />
     <Content Include="Problems\Hard\Problem10 - Regular Expression Matching\Description.txt" />
