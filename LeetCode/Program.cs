@@ -96,7 +96,7 @@ namespace LeetCode
         public static void processProblem14()
         {
             Problems.Easy.Problem14.Solution solution = new Problems.Easy.Problem14.Solution();
-            Console.WriteLine(solution.LongestCommonPrefix(new string[] { "aa", "a" }));
+            Console.WriteLine(solution.LongestCommonPrefix(new string[] { "aa", "a", "" }));
         }
     }
 }

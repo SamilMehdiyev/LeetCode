@@ -13,50 +13,43 @@ namespace LeetCode.Problems.Easy.Problem14
             if (strs.Length == 0)
                 return "";
 
-            string result = strs[0];
-            var dictionary = new Dictionary<int, char>();
+            var length = 0;
 
-            if (strs[0].Length == 0)
+            var minLengthStr = findMinimumLengthString(strs);
+
+            if (minLengthStr.Length == 0)
                 return "";
 
-            prepareDictionary(strs[0], dictionary);
+            while (length < minLengthStr.Length)
+            {
+                for (int i = 0; i < strs.Length; i++)
+                {
+                    var item = strs[i];
+
+                    if (item[length] != minLengthStr[length])
+                    {
+                        goto result;
+                    }
+                }
+
+                length++;
+            }
+
+
+            result: return minLengthStr.Substring(0, length);
+        }
+
+        private string findMinimumLengthString(string[] strs)
+        {
+            var min = strs[0];
 
             for (int i = 1; i < strs.Length; i++)
             {
-                var item = strs[i];
-                var commonPrefixExist = true;
-
-                if (item.Length == 0)
-                    return "";
-
-                for (int j = 0; j < item.Length; j++)
-                {
-                    if (dictionary[j] == item[j])
-                        continue;
-
-                    result = item.Substring(0, j);
-
-                    if (j == 0)
-                        commonPrefixExist = false;
-
-                    break;
-                }
-
-                if (commonPrefixExist)
-                    continue;
-
-                break;
+                if (strs[i].Length < min.Length)
+                    min = strs[i];
             }
 
-            return result;
-        }
-
-        private void prepareDictionary(string str, Dictionary<int, char> dictionary)
-        {
-            for (int i = 0; i < str.Length; i++)
-            {
-                dictionary[i] = str[i];
-            }
+            return min;
         }
     }
 }
