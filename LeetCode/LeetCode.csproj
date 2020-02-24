@@ -57,6 +57,7 @@
     <Compile Include="Problems\Medium\Problem11 - Container With Most Water\Solution2.cs" />
     <Compile Include="Problems\Medium\Problem11 - Container With Most Water\Solution3.cs" />
     <Compile Include="Problems\Medium\Problem12 - Integer to Roman\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem15 - 3Sum\Solution.cs" />
     <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Solution.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmSolution.cs" />
@@ -79,6 +80,7 @@
     <Content Include="Problems\Hard\Problem10 - Regular Expression Matching\Description.txt" />
     <Content Include="Problems\Medium\Problem11 - Container With Most Water\Description.txt" />
     <Content Include="Problems\Medium\Problem12 - Integer to Roman\Description.txt" />
+    <Content Include="Problems\Medium\Problem15 - 3Sum\Description.txt" />
     <Content Include="Problems\Medium\Problem2 - Add Two Numbers\Description.txt" />
     <Content Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Description.txt" />
     <Content Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Description.txt" />
