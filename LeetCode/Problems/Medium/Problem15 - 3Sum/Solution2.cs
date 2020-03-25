@@ -56,22 +56,5 @@ namespace LeetCode.Problems.Medium.Problem15
 
             return list;
         }
-
-        private bool existValues(int a, int b, int c)
-        {
-            foreach (var item in list)
-            {
-                if (
-                    (item[0] == a && item[1] == b && item[2] == c) ||
-                    (item[0] == a && item[2] == b && item[1] == c) ||
-                    (item[1] == a && item[2] == b && item[0] == c) ||
-                    (item[1] == a && item[0] == b && item[2] == c) ||
-                    (item[2] == a && item[0] == b && item[1] == c) ||
-                    (item[2] == a && item[1] == b && item[0] == c)
-                   )
-                    return true;
-            }
-            return false;
-        }
     }
 }
