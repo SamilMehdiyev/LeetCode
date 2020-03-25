@@ -58,6 +58,7 @@
     <Compile Include="Problems\Medium\Problem11 - Container With Most Water\Solution3.cs" />
     <Compile Include="Problems\Medium\Problem12 - Integer to Roman\Solution.cs" />
     <Compile Include="Problems\Medium\Problem15 - 3Sum\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem15 - 3Sum\Solution2.cs" />
     <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Solution.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmSolution.cs" />
