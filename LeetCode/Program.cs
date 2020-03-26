@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem16();
+            processProblem20();
         }
 
         public static void processProblem2()
@@ -263,6 +263,15 @@ namespace LeetCode
             //var result = solution.ThreeSumClosest(new int[] { 0, 2, 1, -3 }, 1);
             //var result = solution.ThreeSumClosest(new int[] { 1, 1, -1, -1, 3 }, 3);
             var result = solution.ThreeSumClosest(new int[] { 1, 2, 4, 8, 16, 32, 64, 128 }, 82);
+            Console.WriteLine(result);
+        }
+
+        public static void processProblem20()
+        {
+            Problems.Easy.Problem20.Solution solution = new Problems.Easy.Problem20.Solution();
+            //var result = solution.IsValid("({[]}[]{()})");
+            //var result = solution.IsValid("([)]");
+            var result = solution.IsValid("[])");
             Console.WriteLine(result);
         }
     }
