@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem21();
+            processProblem18();
         }
 
         public static void processProblem2()
@@ -266,6 +266,20 @@ namespace LeetCode
             Console.WriteLine(result);
         }
 
+        public static void processProblem18()
+        {
+            Problems.Medium.Problem18.Solution solution = new Problems.Medium.Problem18.Solution();
+            var result = solution.FourSum(new int[] { 1, 0, -1, 0, -2, 2 }, 0);
+            //var result = solution.FourSum(new int[] { 0, 0, 0, 0 }, 0);
+            //var result = solution.FourSum(new int[] { -1, 0, 1, 2, -1, -4 }, -1);
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(string.Join(", ", item));
+            }
+        }
+
+
         public static void processProblem20()
         {
             Problems.Easy.Problem20.Solution solution = new Problems.Easy.Problem20.Solution();
@@ -274,6 +288,7 @@ namespace LeetCode
             var result = solution.IsValid("[])");
             Console.WriteLine(result);
         }
+
         public static void processProblem21()
         {
             Problems.Easy.Problem21.Solution problem = new Problems.Easy.Problem21.Solution();
