@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem20();
+            processProblem21();
         }
 
         public static void processProblem2()
@@ -273,6 +273,12 @@ namespace LeetCode
             //var result = solution.IsValid("([)]");
             var result = solution.IsValid("[])");
             Console.WriteLine(result);
+        }
+        public static void processProblem21()
+        {
+            Problems.Easy.Problem21.Solution problem = new Problems.Easy.Problem21.Solution();
+            Problems.Easy.Problem21.ListNode result = problem.MergeTwoLists(new int []{ 1, 2, 4 }, new int[] { 1, 3, 4, 5 });
+            Console.WriteLine(problem.getValue(result));
         }
     }
 }
