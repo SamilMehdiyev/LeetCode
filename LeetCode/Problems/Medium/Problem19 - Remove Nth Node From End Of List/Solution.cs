@@ -12,7 +12,12 @@ namespace LeetCode.Problems.Medium.Problem19
 
         public ListNode RemoveNthFromEnd(ListNode head, int n)
         {
-            return null;
+            if (head.next == null && n == 1)
+                return null;
+
+            var position = this.goToEnd(head, head.next, n);
+
+            return position == 0 ? head.next : head;
         }
 
 
@@ -21,6 +26,21 @@ namespace LeetCode.Problems.Medium.Problem19
             return string.Join("", getValueFromListNode(node));
         }
 
+
+        private int goToEnd(ListNode current, ListNode nextNode, int n)
+        {
+            if (current.next == null)
+                return --n;
+
+            var position = this.goToEnd(nextNode, nextNode.next, n);
+
+            if (position == 0)
+            {
+                current.next = nextNode.next;
+            }
+
+            return --position;
+        }
 
         private string getValueFromListNode(ListNode listNode)
         {

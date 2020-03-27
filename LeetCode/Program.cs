@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Numerics;
+using LeetCode.Portfolio;
 
 namespace LeetCode
 {
@@ -8,13 +9,13 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem18();
+            processProblem19();
         }
 
         public static void processProblem2()
         {
             Problems.Medium.Problem2.Solution problem = new Problems.Medium.Problem2.Solution();
-            Problems.Medium.Problem2.ListNode result = problem.AddTwoNumbers(BigInteger.Parse("1000000000000000000000000000001"), BigInteger.Parse("564"));
+            ListNode result = problem.AddTwoNumbers(BigInteger.Parse("1000000000000000000000000000001"), BigInteger.Parse("564"));
             Console.WriteLine(problem.getValue(result));
         }
 
@@ -279,6 +280,20 @@ namespace LeetCode
             }
         }
 
+        public static void processProblem19()
+        {
+            Problems.Medium.Problem19.Solution problem = new Problems.Medium.Problem19.Solution();
+            ListNode result = problem.RemoveNthFromEnd(new int[] { 1, 2, 3, 4, 5 }, 2);
+            //ListNode result = problem.RemoveNthFromEnd(new int[] { 1 }, 1);
+            //ListNode result = problem.RemoveNthFromEnd(new int[] { 1, 2 }, 1);
+            //ListNode result = problem.RemoveNthFromEnd(new int[] { 1, 2 }, 2);
+            if (result == null)
+            {
+                Console.WriteLine("null");
+                return;
+            }
+            Console.WriteLine(problem.getValue(result));
+        }
 
         public static void processProblem20()
         {
@@ -292,7 +307,7 @@ namespace LeetCode
         public static void processProblem21()
         {
             Problems.Easy.Problem21.Solution problem = new Problems.Easy.Problem21.Solution();
-            Problems.Easy.Problem21.ListNode result = problem.MergeTwoLists(new int []{ 1, 2, 4 }, new int[] { 1, 3, 4, 5 });
+            ListNode result = problem.MergeTwoLists(new int []{ 1, 2, 4 }, new int[] { 1, 3, 4, 5 });
             Console.WriteLine(problem.getValue(result));
         }
     }
