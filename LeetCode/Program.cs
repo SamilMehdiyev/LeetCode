@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem28();
+            processProblem17();
         }
 
         public static void processProblem2()
@@ -267,6 +267,16 @@ namespace LeetCode
             Console.WriteLine(result);
         }
 
+        public static void processProblem17()
+        {
+            Problems.Medium.Problem17.Solution solution = new Problems.Medium.Problem17.Solution();
+            var result = solution.LetterCombinations("23");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
         public static void processProblem18()
         {
             Problems.Medium.Problem18.Solution solution = new Problems.Medium.Problem18.Solution();
@@ -310,6 +320,7 @@ namespace LeetCode
             ListNode result = problem.MergeTwoLists(new int []{ 1, 2, 4 }, new int[] { 1, 3, 4, 5 });
             Console.WriteLine(problem.getValue(result));
         }
+
         public static void processProblem28()
         {
             Problems.Easy.Problem28.Solution problem = new Problems.Easy.Problem28.Solution();
