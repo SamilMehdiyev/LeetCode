@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeetCode.Portfolio;
 
 namespace LeetCode.Problems.Easy.Problem21
 {
@@ -109,11 +105,5 @@ namespace LeetCode.Problems.Easy.Problem21
 
             return listNode;
         }
-    }
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
     }
 }

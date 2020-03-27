@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Portfolio\ListNode.cs" />
     <Compile Include="Problems\Easy\Problem1 - Two Sum\Solution.cs" />
     <Compile Include="Problems\Easy\Problem13 - Roman to Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem14 - Longest Common Prefix\Solution.cs" />

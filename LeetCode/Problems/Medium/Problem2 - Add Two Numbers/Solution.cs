@@ -1,15 +1,9 @@
 ﻿using System.Linq;
 using System.Numerics;
+using LeetCode.Portfolio;
 
 namespace LeetCode.Problems.Medium.Problem2
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
-
     class Solution
     {
         public ListNode AddTwoNumbers(BigInteger num1, BigInteger num2)
