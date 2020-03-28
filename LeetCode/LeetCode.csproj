@@ -51,6 +51,7 @@
     <Compile Include="Problems\Easy\Problem20 - Valid Paranthesis\Solution.cs" />
     <Compile Include="Problems\Easy\Problem21 - Merge Two Sorted Lists\Solution.cs" />
     <Compile Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Solution2.cs" />
     <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution.cs" />
     <Compile Include="Problems\Easy\Problem28 - Implement strStr Method\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
