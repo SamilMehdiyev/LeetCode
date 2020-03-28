@@ -53,6 +53,7 @@
     <Compile Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Solution.cs" />
     <Compile Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Solution2.cs" />
     <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution2.cs" />
     <Compile Include="Problems\Easy\Problem28 - Implement strStr Method\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem9 - Palindrome Number\Solution.cs" />
