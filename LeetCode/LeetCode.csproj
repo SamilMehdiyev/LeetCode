@@ -55,6 +55,7 @@
     <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution.cs" />
     <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution2.cs" />
     <Compile Include="Problems\Easy\Problem28 - Implement strStr Method\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem35 - Search Insert Position\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem9 - Palindrome Number\Solution.cs" />
     <Compile Include="Problems\Hard\Problem10 - Regular Expression Matching\Solution.cs" />
@@ -93,6 +94,7 @@
     <Content Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Description.txt" />
     <Content Include="Problems\Easy\Problem27 - Remove Element\Description.txt" />
     <Content Include="Problems\Easy\Problem28 - Implement strStr Method\Description.txt" />
+    <Content Include="Problems\Easy\Problem35 - Search Insert Position\Description.txt" />
     <Content Include="Problems\Easy\Problem7 - Reverse Integer\Description.txt" />
     <Content Include="Problems\Easy\Problem9 - Palindrome Number\Description.txt" />
     <Content Include="Problems\Hard\Problem10 - Regular Expression Matching\Description.txt" />
