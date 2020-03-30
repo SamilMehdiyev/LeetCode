@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem35();
+            processProblem69();
         }
 
         public static void processProblem2()
@@ -355,6 +355,13 @@ namespace LeetCode
             //var result = problem.SearchInsert(new int[] { 1, 3, 4, 6 }, 5);
             //var result = problem.SearchInsert(new int[] { 1, 2, 3, 4, 5, 10 }, 2);
             var result = problem.SearchInsert(new int[] { 1, 3, 5, 6 }, 7);
+            Console.WriteLine(result);
+        }
+
+        public static void processProblem69()
+        {
+            Problems.Easy.Problem69.Solution problem = new Problems.Easy.Problem69.Solution();
+            var result = problem.MySqrt(2147395599);
             Console.WriteLine(result);
         }
     }
