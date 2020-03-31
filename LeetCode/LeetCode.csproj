@@ -73,6 +73,7 @@
     <Compile Include="Problems\Medium\Problem15 - 3Sum\Solution.cs" />
     <Compile Include="Problems\Medium\Problem15 - 3Sum\Solution2.cs" />
     <Compile Include="Problems\Medium\Problem16 - 3Sum Closest\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem162 - Find Peak Element\Solution.cs" />
     <Compile Include="Problems\Medium\Problem17 - Letter Combinations of a Phone Number\Solution.cs" />
     <Compile Include="Problems\Medium\Problem18 - 4Sum\Solution.cs" />
     <Compile Include="Problems\Medium\Problem19 - Remove Nth Node From End Of List\Solution.cs" />
@@ -111,6 +112,7 @@
     <Content Include="Problems\Medium\Problem12 - Integer to Roman\Description.txt" />
     <Content Include="Problems\Medium\Problem15 - 3Sum\Description.txt" />
     <Content Include="Problems\Medium\Problem16 - 3Sum Closest\Description.txt" />
+    <Content Include="Problems\Medium\Problem162 - Find Peak Element\Description.txt" />
     <Content Include="Problems\Medium\Problem17 - Letter Combinations of a Phone Number\Description.txt" />
     <Content Include="Problems\Medium\Problem18 - 4Sum\Description.txt" />
     <Content Include="Problems\Medium\Problem19 - Remove Nth Node From End Of List\Description.txt" />
