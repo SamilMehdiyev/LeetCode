@@ -54,6 +54,7 @@
     <Compile Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Solution2.cs" />
     <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution.cs" />
     <Compile Include="Problems\Easy\Problem27 - Remove Element\Solution2.cs" />
+    <Compile Include="Problems\Easy\Problem278 - First Bad Version\Solution.cs" />
     <Compile Include="Problems\Easy\Problem28 - Implement strStr Method\Solution.cs" />
     <Compile Include="Problems\Easy\Problem35 - Search Insert Position\Solution.cs" />
     <Compile Include="Problems\Easy\Problem374 - Guess Number Higher or Lower\Solution.cs" />
@@ -97,6 +98,7 @@
     <Content Include="Problems\Easy\Problem21 - Merge Two Sorted Lists\Description.txt" />
     <Content Include="Problems\Easy\Problem26 - Remove Duplicates from Sorted Array\Description.txt" />
     <Content Include="Problems\Easy\Problem27 - Remove Element\Description.txt" />
+    <Content Include="Problems\Easy\Problem278 - First Bad Version\Description.txt" />
     <Content Include="Problems\Easy\Problem28 - Implement strStr Method\Description.txt" />
     <Content Include="Problems\Easy\Problem35 - Search Insert Position\Description.txt" />
     <Content Include="Problems\Easy\Problem374 - Guess Number Higher or Lower\Description.txt" />
