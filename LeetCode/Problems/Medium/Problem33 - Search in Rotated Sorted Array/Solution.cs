@@ -49,8 +49,6 @@
             var start = 0;
             var end = nums.Length - 1;
 
-
-
             while (start <= end)
             {
                 if (nums[start] <= nums[end])
