@@ -82,6 +82,7 @@
     <Compile Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Solution.cs" />
     <Compile Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Solution.cs" />
     <Compile Include="Problems\Medium\Problem33 - Search in Rotated Sorted Array\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem34 - Find First and Last Position of Element in Sorted Array\Solution.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmSolution.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Solution.cs" />
     <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Solution.cs" />
@@ -124,6 +125,7 @@
     <Content Include="Problems\Medium\Problem3 - Longest Substr Without Repeating Char.s\Description.txt" />
     <Content Include="Problems\Hard\Problem4 - Median of Two Sorted Arrays\Description.txt" />
     <Content Include="Problems\Medium\Problem33 - Search in Rotated Sorted Array\Description.txt" />
+    <Content Include="Problems\Medium\Problem34 - Find First and Last Position of Element in Sorted Array\Description.txt" />
     <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmDescription.txt" />
     <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Description.txt" />
     <Content Include="Problems\Medium\Problem6 - ZIgZag Conversion\Description.txt" />
