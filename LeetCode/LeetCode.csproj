@@ -59,6 +59,7 @@
     <Compile Include="Problems\Easy\Problem278 - First Bad Version\Solution.cs" />
     <Compile Include="Problems\Easy\Problem28 - Implement strStr Method\Solution.cs" />
     <Compile Include="Problems\Easy\Problem283 - Move Zeroes\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem283 - Move Zeroes\Solution2.cs" />
     <Compile Include="Problems\Easy\Problem35 - Search Insert Position\Solution.cs" />
     <Compile Include="Problems\Easy\Problem374 - Guess Number Higher or Lower\Solution.cs" />
     <Compile Include="Problems\Easy\Problem53 - Maximum Subarray\Solution.cs" />

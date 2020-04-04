@@ -1,6 +1,6 @@
 ﻿namespace LeetCode.Problems.Easy.Problem283
 {
-    class Solution
+    class Solution2
     {
         public int[] MoveZeroes(int[] nums)
         {
@@ -17,43 +17,46 @@
                 }
                 else
                 {
-                    var nonZeroIndex = this.findNextNonZeroIndex(nums, start, end);
+                    var minIndex = this.findMinimumValueIndex(nums, start, end);
 
-                    if (nonZeroIndex == -1)
+                    if (minIndex == -1)
                     {
                         index++;
                         continue;
                     }
 
                     var temp = nums[start];
-                    nums[start] = nums[nonZeroIndex];
-                    nums[nonZeroIndex] = temp;
+                    nums[start] = nums[minIndex];
+                    nums[minIndex] = temp;
 
                     start++;
-                    if (nums[end] == 0)
+                    if(nums[end] == 0)
                         end--;
                 }
             }
 
             return nums;
         }
-        private int findNextNonZeroIndex(int[] nums, int start, int end)
+        private int findMinimumValueIndex(int[] nums, int start, int end)
         {
-            var index = -1;
+            var minIndex = -1;
 
             for (int i = start; i <= end; i++)
             {
                 if (nums[i] == 0)
                     continue;
 
-                if (index == -1)
+                if (minIndex == -1)
                 {
-                    index = i;
-                    break;
+                    minIndex = i;
+                    continue;
                 }
+
+                if (nums[i] < nums[minIndex])
+                    minIndex = i;
             }
 
-            return index;
+            return minIndex;
         }
     }
 }

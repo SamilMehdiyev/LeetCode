@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem53();
+            processProblem283();
         }
 
         public static void processProblem2()
@@ -421,6 +421,15 @@ namespace LeetCode
             //var result = problem.IsHappy(19);
             var result = problem.IsHappy(2);
             Console.WriteLine(result);
+        }
+
+        public static void processProblem283()
+        {
+            Problems.Easy.Problem283.Solution problem = new Problems.Easy.Problem283.Solution();
+            //var result = problem.MoveZeroes(new int[] { 0, 12, 0, 3, 0, 1 });
+            //var result = problem.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
+            var result = problem.MoveZeroes(new int[] { 4, 2, 4, 0, 0, 3, 0, 5, 1, 0 });
+            Console.WriteLine(string.Join(", ", result));
         }
 
         public static void processProblem374()
