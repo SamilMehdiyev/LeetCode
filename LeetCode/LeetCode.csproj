@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Portfolio\ListNode.cs" />
     <Compile Include="Problems\Easy\Problem1 - Two Sum\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem122 - Best Time to Buy and Sell Stock II\Solution.cs" />
     <Compile Include="Problems\Easy\Problem13 - Roman to Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem136 - Single Number\Solution.cs" />
     <Compile Include="Problems\Easy\Problem14 - Longest Common Prefix\Solution.cs" />
@@ -101,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Problems\Easy\Problem1 - Two Sum\Description.txt" />
+    <Content Include="Problems\Easy\Problem122 - Best Time to Buy and Sell Stock II\Description.txt" />
     <Content Include="Problems\Easy\Problem13 - Roman to Integer\Description.txt" />
     <Content Include="Problems\Easy\Problem136 - Single Number\Description.txt" />
     <Content Include="Problems\Easy\Problem14 - Longest Common Prefix\Description.txt" />
