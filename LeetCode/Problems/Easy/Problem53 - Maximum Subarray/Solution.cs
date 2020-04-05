@@ -7,40 +7,22 @@
             if (nums == null || nums.Length == 0)
                 return 0;
 
-            //if (nums.Length == 1)
-            //    return nums[0];
+            var currentSum = 0;
+            var maxSum = 0;
 
-            var sum = 0;
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 1; i < nums.Length; i++)
             {
-                sum += nums[i];
-            }
-
-            var start = 0;
-            var end = nums.Length - 1;
-
-            var maxSum = sum;
-
-            while (start < end)
-            {
-                if (nums[start] < nums[end])
-                {
-                    start += 1;
-                    sum -= nums[start - 1];
-                }
-                else
-                {
-                    end -= 1;
-                    sum -= nums[end + 1];
-                }
-
-
-                if (maxSum <= sum)
-                    maxSum = sum;
-
+                currentSum = this.findMax(nums[i], currentSum + nums[i]);
+                if (currentSum > maxSum)
+                    maxSum = currentSum;
             }
 
             return maxSum;
+        }
+
+        private int findMax(int first, int second)
+        {
+            return first >= second ? first : second;
         }
     }
 }
