@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem53();
+            processProblem49();
         }
 
         public static void processProblem2()
@@ -377,6 +377,17 @@ namespace LeetCode
             //var result = problem.SearchInsert(new int[] { 1, 2, 3, 4, 5, 10 }, 2);
             var result = problem.SearchInsert(new int[] { 1, 3, 5, 6 }, 7);
             Console.WriteLine(result);
+        }
+
+        public static void processProblem49()
+        {
+            Problems.Medium.Problem49.Solution problem = new Problems.Medium.Problem49.Solution();
+            var result = problem.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(string.Join(", ", item));
+            }
         }
 
         public static void processProblem53()
