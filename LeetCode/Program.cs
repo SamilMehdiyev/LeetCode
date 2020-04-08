@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem49();
+            processProblem_30DayChallenge_Counting_Elements();
         }
 
         public static void processProblem2()
@@ -467,6 +467,14 @@ namespace LeetCode
         {
             Problems.Easy.Problem374.Solution problem = new Problems.Easy.Problem374.Solution();
             var result = problem.GuessNumber(10);
+            Console.WriteLine(result);
+        }
+
+        public static void processProblem_30DayChallenge_Counting_Elements()
+        {
+            Problems._30DayChallenge.Counting_Elements.Solution problem = new Problems._30DayChallenge.Counting_Elements.Solution();
+            var result = problem.CountElements(new int[] { 1, 1, 2, 2 });
+            //var result = problem.CountElements(new int[] { 1, 3, 2, 3, 5, 0 });
             Console.WriteLine(result);
         }
     }
