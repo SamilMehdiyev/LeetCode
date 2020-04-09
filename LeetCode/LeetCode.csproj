@@ -69,6 +69,7 @@
     <Compile Include="Problems\Easy\Problem69 - Sqrt%28x%29\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem704 - Binary Search\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem844 - Backspace String Compare\Solution.cs" />
     <Compile Include="Problems\Easy\Problem876 - Middle of the Linked List\Solution.cs" />
     <Compile Include="Problems\Easy\Problem9 - Palindrome Number\Solution.cs" />
     <Compile Include="Problems\Hard\Problem10 - Regular Expression Matching\Solution.cs" />
@@ -126,6 +127,7 @@
     <Content Include="Problems\Easy\Problem69 - Sqrt%28x%29\Description.txt" />
     <Content Include="Problems\Easy\Problem7 - Reverse Integer\Description.txt" />
     <Content Include="Problems\Easy\Problem704 - Binary Search\Description.txt" />
+    <Content Include="Problems\Easy\Problem844 - Backspace String Compare\Description.txt" />
     <Content Include="Problems\Easy\Problem876 - Middle of the Linked List\Description.txt" />
     <Content Include="Problems\Easy\Problem9 - Palindrome Number\Description.txt" />
     <Content Include="Problems\Hard\Problem10 - Regular Expression Matching\Description.txt" />
