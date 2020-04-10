@@ -98,6 +98,7 @@
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmSolution.cs" />
     <Compile Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Solution.cs" />
     <Compile Include="Problems\Medium\Problem6 - ZIgZag Conversion\Solution.cs" />
+    <Compile Include="Problems\Medium\Problem622 - Design Circular Queue\MyCircularQueue.cs" />
     <Compile Include="Problems\Medium\Problem658 - Find K Closest Elements\Solution.cs" />
     <Compile Include="Problems\Medium\Problem8 - String to Integer %28atoi%29\Solution.cs" />
     <Compile Include="Program.cs" />
@@ -152,6 +153,7 @@
     <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\ManacharsAlgorithmDescription.txt" />
     <Content Include="Problems\Medium\Problem5 - Longest Palindromic Substring\Description.txt" />
     <Content Include="Problems\Medium\Problem6 - ZIgZag Conversion\Description.txt" />
+    <Content Include="Problems\Medium\Problem622 - Design Circular Queue\Description.txt" />
     <Content Include="Problems\Medium\Problem658 - Find K Closest Elements\Description.txt" />
     <Content Include="Problems\Medium\Problem8 - String to Integer %28atoi%29\Description.txt" />
   </ItemGroup>
