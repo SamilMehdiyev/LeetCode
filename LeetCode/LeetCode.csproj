@@ -52,6 +52,7 @@
     <Compile Include="Problems\Easy\Problem13 - Roman to Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem136 - Single Number\Solution.cs" />
     <Compile Include="Problems\Easy\Problem14 - Longest Common Prefix\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem155 - Min Stack\MinStack.cs" />
     <Compile Include="Problems\Easy\Problem155 - Min Stack\Solution.cs" />
     <Compile Include="Problems\Easy\Problem20 - Valid Paranthesis\Solution.cs" />
     <Compile Include="Problems\Easy\Problem202 - Happy Number\Solution.cs" />
