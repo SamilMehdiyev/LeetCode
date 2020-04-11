@@ -68,6 +68,7 @@
     <Compile Include="Problems\Easy\Problem35 - Search Insert Position\Solution.cs" />
     <Compile Include="Problems\Easy\Problem374 - Guess Number Higher or Lower\Solution.cs" />
     <Compile Include="Problems\Easy\Problem53 - Maximum Subarray\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem543 - Diameter of Binary Tree\Solution.cs" />
     <Compile Include="Problems\Easy\Problem69 - Sqrt%28x%29\Solution.cs" />
     <Compile Include="Problems\Easy\Problem7 - Reverse Integer\Solution.cs" />
     <Compile Include="Problems\Easy\Problem704 - Binary Search\Solution.cs" />
@@ -128,6 +129,7 @@
     <Content Include="Problems\Easy\Problem35 - Search Insert Position\Description.txt" />
     <Content Include="Problems\Easy\Problem374 - Guess Number Higher or Lower\Description.txt" />
     <Content Include="Problems\Easy\Problem53 - Maximum Subarray\Description.txt" />
+    <Content Include="Problems\Easy\Problem543 - Diameter of Binary Tree\Description.txt" />
     <Content Include="Problems\Easy\Problem69 - Sqrt%28x%29\Description.txt" />
     <Content Include="Problems\Easy\Problem7 - Reverse Integer\Description.txt" />
     <Content Include="Problems\Easy\Problem704 - Binary Search\Description.txt" />
