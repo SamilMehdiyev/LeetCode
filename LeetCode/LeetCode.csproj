@@ -48,6 +48,7 @@
     <Compile Include="Portfolio\TreeNode.cs" />
     <Compile Include="Problems\30DayChallenge\Counting Elements\Solution.cs" />
     <Compile Include="Problems\Easy\Problem1 - Two Sum\Solution.cs" />
+    <Compile Include="Problems\Easy\Problem1046 - Last Stone Weight\Solution.cs" />
     <Compile Include="Problems\Easy\Problem121 - Best Time to Buy and Sell Stock\Solution.cs" />
     <Compile Include="Problems\Easy\Problem122 - Best Time to Buy and Sell Stock II\Solution.cs" />
     <Compile Include="Problems\Easy\Problem13 - Roman to Integer\Solution.cs" />
@@ -114,6 +115,7 @@
   <ItemGroup>
     <Content Include="Problems\30DayChallenge\Counting Elements\Description.txt" />
     <Content Include="Problems\Easy\Problem1 - Two Sum\Description.txt" />
+    <Content Include="Problems\Easy\Problem1046 - Last Stone Weight\Description.txt" />
     <Content Include="Problems\Easy\Problem121 - Best Time to Buy and Sell Stock\Description.txt" />
     <Content Include="Problems\Easy\Problem122 - Best Time to Buy and Sell Stock II\Description.txt" />
     <Content Include="Problems\Easy\Problem13 - Roman to Integer\Description.txt" />

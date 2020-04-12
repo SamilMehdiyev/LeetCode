@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            processProblem876();
+            processProblem1406();
         }
 
         public static void processProblem2()
@@ -482,6 +482,13 @@ namespace LeetCode
             Problems.Easy.Problem876.Solution problem = new Problems.Easy.Problem876.Solution();
             ListNode result = problem.MiddleNode(new int[] { 1, 2, 3, 4, 5 });
             Console.WriteLine(problem.getValue(result));
+        }
+
+        public static void processProblem1406()
+        {
+            Problems.Easy.Problem1046.Solution problem = new Problems.Easy.Problem1046.Solution();
+            var result = problem.LastStoneWeight(new int[] { 2, 7, 4, 1, 8, 1 });
+            Console.WriteLine(result);
         }
     }
 }
