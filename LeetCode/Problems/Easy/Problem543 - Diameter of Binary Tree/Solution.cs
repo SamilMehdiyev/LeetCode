@@ -1,4 +1,5 @@
-﻿using LeetCode.Portfolio;
+﻿using System;
+using LeetCode.Portfolio;
 
 namespace LeetCode.Problems.Easy.Problem543
 {
