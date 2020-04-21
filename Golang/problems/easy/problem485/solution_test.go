@@ -11,7 +11,7 @@ func TestFindMaxConsecutiveOnesCase1(t *testing.T) {
 	got := FindMaxConsecutiveOnes(arr)
 
 	if got != want {
-		t.Logf("FindMaxConsecutiveOnes() = %d, want %d", got, want)
+		t.Errorf("FindMaxConsecutiveOnes() = %d, want %d", got, want)
 	}
 }
 
