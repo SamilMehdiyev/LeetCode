@@ -8,18 +8,14 @@ func RemoveDuplicates(nums []int) int {
 		return 0
 	}
 
-	i := 1
+	length, i := 1, 1
 	for i < len(nums) {
-		if nums[i-1] == nums[i] {
-			j := i
-			for j < len(nums) && nums[j] == nums[i] {
-				j++
-			}
-			nums = append(nums[:i], nums[j:]...)
-			continue
+		if nums[i-1] != nums[i] {
+			nums[length] = nums[i]
+			length++
 		}
 		i++
 	}
 
-	return len(nums)
+	return length
 }
