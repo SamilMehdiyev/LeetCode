@@ -5,12 +5,13 @@ package solutions
 // from leetcode.com
 func SortedSquare(A []int) []int {
 
-	for i := 0; i < len(A); i++ {
-		A[i] = A[i] * A[i]
-	}
+	// for i := 0; i < len(A); i++ {
+	// 	A[i] = A[i] * A[i]
+	// }
 
 	//selectionSort(&A)
-	A = mergeSort(A)
+	//A = mergeSort(A)
+	//A = twoPointerSolution(A)
 
 	return A
 }
@@ -72,4 +73,31 @@ func merge(left []int, right []int) []int {
 	}
 
 	return array
+}
+
+func twoPointerSolution(input []int) []int {
+	start, end := 0, len(input)-1
+	output := make([]int, len(input))
+
+	for i := len(output) - 1; 0 <= i; i-- {
+		if abs(input[start]) > abs(input[end]) {
+			output[i] = square(input[start])
+			start++
+		} else {
+			output[i] = square(input[end])
+			end--
+		}
+	}
+	return output
+}
+
+func abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
+
+func square(x int) int {
+	return x * x
 }
