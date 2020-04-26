@@ -1,37 +1,21 @@
 package solutions
 
-// SortedSquare function is a solution for the
-// Problem #977 - Squares of a Sorted Array
+// HeightChecker function is a solution for the
+// Problem #1051 - Height Checker
 // from leetcode.com
-func SortedSquare(A []int) []int {
+func HeightChecker(A []int) int {
 
-	// for i := 0; i < len(A); i++ {
-	// 	A[i] = A[i] * A[i]
-	// }
+	B := mergeSort(A)
 
-	//selectionSort(&A)
+	diffs := 0
 
-	//A = mergeSort(A)
-
-	//A = twoPointerSolution(A)
-
-	return A
-}
-
-func selectionSort(arr *[]int) {
-	for i := 0; i < len(*arr); i++ {
-		minIndex := i
-
-		for j := i; j < len(*arr); j++ {
-			if (*arr)[j] < (*arr)[minIndex] {
-				minIndex = j
-			}
+	for i := 0; i < len(A); i++ {
+		if A[i] != B[i] {
+			diffs++
 		}
-
-		temp := (*arr)[i]
-		(*arr)[i] = (*arr)[minIndex]
-		(*arr)[minIndex] = temp
 	}
+
+	return diffs
 }
 
 func mergeSort(arr []int) []int {
@@ -75,31 +59,4 @@ func merge(left []int, right []int) []int {
 	}
 
 	return array
-}
-
-func twoPointerSolution(input []int) []int {
-	start, end := 0, len(input)-1
-	output := make([]int, len(input))
-
-	for i := len(output) - 1; 0 <= i; i-- {
-		if abs(input[start]) > abs(input[end]) {
-			output[i] = square(input[start])
-			start++
-		} else {
-			output[i] = square(input[end])
-			end--
-		}
-	}
-	return output
-}
-
-func abs(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
-}
-
-func square(x int) int {
-	return x * x
 }
