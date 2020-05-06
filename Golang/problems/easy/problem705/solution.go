@@ -13,18 +13,18 @@ func Constructor() MyHashSet {
 }
 
 // Add - is a function for adding a new element into HashSet component
-func (this *MyHashSet) Add(key int) {
-	if !this.Contains(key) {
-		bucket := this.data[key%255]
+func (obj *MyHashSet) Add(key int) {
+	if !obj.Contains(key) {
+		bucket := obj.data[key%255]
 		bucket = append(bucket, key)
-		this.data[key%255] = bucket
+		obj.data[key%255] = bucket
 	}
 }
 
 // Remove - is a function for removing an element into HashSet component
-func (this *MyHashSet) Remove(key int) {
-	if this.Contains(key) {
-		bucket := this.data[key%255]
+func (obj *MyHashSet) Remove(key int) {
+	if obj.Contains(key) {
+		bucket := obj.data[key%255]
 
 		for i := 0; i < len(bucket); i++ {
 			if bucket[i] == key {
@@ -35,8 +35,8 @@ func (this *MyHashSet) Remove(key int) {
 }
 
 // Contains - is a function for checking an element exist or not in HashSet component
-func (this *MyHashSet) Contains(key int) bool {
-	bucket := this.data[key%255]
+func (obj *MyHashSet) Contains(key int) bool {
+	bucket := obj.data[key%255]
 
 	for i := 0; i < len(bucket); i++ {
 		if bucket[i] == key {
