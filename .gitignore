@@ -11,3 +11,7 @@
 /C#/LeetCode/Properties
 .DS_Store
 .vscode
+/Java/.idea
+/Java/lib
+/Java/Java.iml
+/Java/out
