@@ -1,4 +1,4 @@
-package problems.easy.Problem389;
+package problems.easy.problem389;
 
 public class Solution {
     public char findTheDifference(String s, String t) {

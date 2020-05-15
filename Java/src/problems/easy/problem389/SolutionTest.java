@@ -1,4 +1,4 @@
-package problems.easy.Problem389;
+package problems.easy.problem389;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
