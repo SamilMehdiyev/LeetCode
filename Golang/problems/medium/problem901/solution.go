@@ -14,7 +14,6 @@ func (this *StockSpanner) Next(price int) int {
     spans := 1
     
     if this.days > 1 && price < this.prices[len(this.prices) - 1] {
-        fmt.Println(this.prices[len(this.prices) - 1])
         this.prices = append(this.prices, price)
         this.spans = append(this.spans, spans)
         return spans
