@@ -9,6 +9,6 @@ class SolutionTest {
     @Test
     void findComplement() {
         Solution solution = new Solution();
-        System.out.println(solution.findComplement(1));
+        System.out.println(solution.findComplement(5));
     }
 }
